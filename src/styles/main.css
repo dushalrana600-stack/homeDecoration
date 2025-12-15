@@ -237,4 +237,21 @@
     .ft1 img {
         width: 100%;
     }
+    
 }
+@media (min-width: 1000px) {
+    .sec3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3-txt {
+        text-align: center;
+    }
+    .sec3-txt h3 {
+        font-size: 30px;
+    }
+    .sec3-txt p {
+        font-size: 18px;
+        padding: 10px;
+    }
+} 
