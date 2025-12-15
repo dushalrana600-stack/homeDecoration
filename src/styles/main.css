@@ -272,3 +272,32 @@
         grid-template-columns: repeat(2, 1fr);
     }
 } 
+@media (max-width: 549px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .pages {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .section21 img {
+        height: 200px;
+    }
+    .ft1 img {
+        width: 130px;
+        height: 100px;
+    }
+}
